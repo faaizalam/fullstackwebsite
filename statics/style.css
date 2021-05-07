@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    left: 0px;
+
+}
+
+.headings,.headings2{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+   
+   
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(250, 12, 12);
+   
+  
+}
+body{
+   background-color: rgb(241, 241, 227);
+   
+}
+.logo{
+   margin-top: 10px;
+    height: 60px;
+    width: 100%;
+    /* position: absolute; */
+    display: flex;
+    
+}
+/* navebar */
+ul li a:hover{
+    background-color: black;
+    border-radius: 7px;
+}
+.logo img{
+  
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    /* position: absolute; */
+    margin-top: 5px;
+    border: 2px solid black;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute; 
+    align-items: center;
+    
+    
+    /* flex-direction: row; */
+   
+    /* flex-direction: row-reverse; */
+   
+}
+li{
+    list-style: none;
+    margin-top: 15px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    margin: 30px;
+   color: yellow;
+    font-weight: bold;
+    transition: color 0.9s ease;
+    
+}
+a:hover{
+color: orange;
+}
+
+nav{
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    /* top: 0px; */
+    /* left: 0px; */
+
+}
+.line{
+    width: 27px;
+    height: 2px;
+    margin: 3px 3px;
+    background-color: white;
+    
+   
+}
+
+#burger{
+    float: right;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    position: relative;
+    margin: 17px 24px;
+    cursor: pointer;
+    display: none;
+
+}
+/* nav fins */
+
+
+
+/* home */
+/* height change home */
+#home{
+    
+   width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#btn{
+    border: 2px solid black;
+    outline: none;
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+    color: red;
+    
+
+    
+}
+#btn:hover{
+    background: none;
+}
+
+#home::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 120%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -1;
+background: url('../statics/p.jpg') no-repeat center center/cover;
+}
+/* to make animation */
+.typing{
+    /* should be realtive */
+    position: relative;
+    height: 30px;
+    margin-left: 10px;
+    color: darkorange;
+}
+
+.typing::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    border: 2px solid white;
+   margin-top: 10px;
+   margin-left: 10px;
+   background-color:red;
+    animation: blink 0.5s infinite ease;
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.t{
+    position: relative;
+    animation: blink 0.5s  infinite ease-in-out;
+
+}
+/* afterhome  new section */
+
+.sidebarh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkorange;
+}
+
+
+#sidebar{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 500px;
+    width: 80%;
+    margin: auto;
+     overflow-x:scroll ;
+     
+     
+  
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+  
+    width: 180%;
+    
+  
+ 
+    
+}
+
+
+
+
+#sidebar::-webkit-scrollbar{
+  width: 5px
+ 
+    
+}
+#sidebar::-webkit-scrollbar-track{
+
+ border-radius: 90px;
+ border: 2px solid black;
+
+ background: none;
+ box-shadow: transparent;
+    
+}
+#sidebar::-webkit-scrollbar-thumb{
+ 
+ border-radius:50px;
+
+  background:rgb(236, 7, 7)
+    
+}
+
+
+#outside::before{
+    content: "";
+    background: url('../statics/kk.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+
+}
+
+.card1 img{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 85px;
+    text-align: center;
+
+}
+#outside{
+    height: 650px;
+    position: relative;
+   
+}
+.card1 {
+    border: 3px solid black;
+    width: 250px;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+
+   
+   
+    /* display: inline-block; */
+    
+  
+}
+
+
+
+.card1 p{
+    color: white;
+    text-align: center;
+   
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+  footer{
+      background-color: black;
+      color: wheat;
+     padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  .card1 a:hover{
+      background-color: purple;
+      
+  }
+  .card1 a{
+      height: 500px;
+      text-decoration: none;
+  }
+
+/* form */
+.formcontainer{
+     height: 1011px;
+     /* changw howa nechy sab isme */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+   
+
+}
+
+.forminside{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+
+}
+input{
+    display: flex;
+    margin: 20px;
+    width: 650px;
+    border-radius: 10px;
+    border-radius: 1px solid black;
+    outline: none;
+    height: 30px;
+}
+
+form{
+    width: 700px;
+}
+
+
+
+
+
+
+
+

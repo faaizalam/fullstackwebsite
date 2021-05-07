@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.aboutcon{
+    height: 430px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutpara1, .aboutpara2 .aboutpara3{
+    margin: 10px;
+}
+.commentsec{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    height: 140px;
+    width: 100%;
+    
+   
+}
+textarea{
+    width: 900px;
+    outline: none;
+   
+}
+label{
+    display: flex;
+
+}
+.cardbody img{
+    width: 20px;
+}
+.commentbox{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+   
+  
+    
+    width: 65%;
+ 
+   
+}
+
+.typ{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+   
+}
+.img{
+    display: flex;
+   
+}
+small{
+    margin-top: 4px;
+}
+.form-group{
+    width: 65%;
+}
+.comment{
+    
+margin: 10px;
+    align-items: center;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+
+.more{
+    display: none;
+}
+.aboutpara1{
+    display: inline-block;
+}
+.aboutcon h1{
+    text-align: center;
+}
+.aboutpara1 , .aboutpara2, .aboutpara3{
+    text-align: center;
+}
+#read{
+  text-align: center;
+}
+
+@media only screen and (max-width:1100px){
+
+    .aboutcon h1 {
+        font-size: 20px; 
+
+    }
+
+    .aboutcon{
+        height: 700px; 
+
+    }
+    textarea{
+        width: 709px;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+
+textarea{
+    width: 600px;
+    border-radius: 10px;
+}
+
+
+}
+
+@media only screen and (max-width:765px){
+
+textarea{
+    width: 450px;
+    border-radius: 10px;
+}
+
+
+}
+@media only screen and (max-width:560px){
+
+textarea{
+    width: 380px;
+    border-radius: 10px;
+}
+.aboutpara1,.aboutpara2,.aboutpara3,h1{
+    font-size: 15px;
+}
+
+
+}
+@media only screen and (max-width:465px){
+    textarea{
+        width: 300px;
+    }
+    .aboutcon{
+        height: 783px;
+    }
+
+
+}
+@media only screen and (max-width:400px){
+    textarea{
+        width: 230px;
+    }
+
+
+}
+

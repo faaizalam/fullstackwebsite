@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    top:0px;
+}
+body{
+    height: 100vh;
+}
+
+
+ul li a{
+    color: rgb(213, 124, 124);
+    transition: color 0.9s ease;
+
+}
+
+ul li a:hover{
+    color: red;
+    background-color: gray;
+    
+}
+.headings{
+    transition: color 0.9 ease;
+
+}
+.headings a:hover{
+    color: violet;
+
+}
+
+.btn{
+    padding: 10px;
+    width: 80px;
+   background-color: brown;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.text{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+.foot{
+    background-color: grey;
+
+}
